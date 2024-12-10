@@ -17,4 +17,4 @@ from ultralytics import YOLO
 model = YOLO("yolov8n.pt")  # load a pretrained model (recommended for training)
 
 # Train the model
-results = model.train(data="/kaggle/working/Demo_Open/02-YOLODataSet.yaml", epochs=150, imgsz=640, batch=0.9)
+results = model.train(data="/kaggle/working/Demo_Open/02-YOLODataSet.yaml", epochs=150, imgsz=640, batch=96)
