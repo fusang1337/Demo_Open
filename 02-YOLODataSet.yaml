@@ -1,0 +1,11 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+train: /kaggle/input/znn-yolo/01-20241210-YOLO/train # train images (relative to 'path') 4 images
+val: /kaggle/input/znn-yolo/01-20241210-YOLO/val # val images (relative to 'path') 4 images
+
+# Classes (80 COCO classes)
+names:
+    0: QiChuang
+    1: ChiFan
+    2: ShuiJiao
+    3: JinWu
+    4: ChuaGong
