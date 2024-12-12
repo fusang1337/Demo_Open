@@ -14,7 +14,7 @@ time.sleep(30)
 from ultralytics import YOLO
 
 # Load a model
-model = YOLO("yolov8n.pt")  # load a pretrained model (recommended for training)
+model = YOLO("yolo11n.pt")  # load a pretrained model (recommended for training)
 
 # Train the model
-results = model.train(data="/kaggle/working/Demo_Open/02-YOLODataSet.yaml", epochs=150, imgsz=640, batch=96)
+results = model.train(data="/kaggle/working/Demo_Open/02-YOLODataSet.yaml", epochs=150, imgsz=640, batch=-1)
